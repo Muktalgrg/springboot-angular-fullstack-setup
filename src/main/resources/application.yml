@@ -3,9 +3,9 @@ server:
 
 
 spring:
-#  profiles:
-#    active:
-#    - dev
+  profiles:
+    active:
+    - dev
   application:
     name: customer
   datasource:
