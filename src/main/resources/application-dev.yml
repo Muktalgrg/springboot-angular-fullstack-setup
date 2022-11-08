@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: customer
+  datasource:
+    url: jdbc:postgresql://awseb-e-5xdazchrpv-stack-awsebrdsdatabase-6gc30lvpidcb.cjyuirb2jdol.ap-southeast-2.rds.amazonaws.com:5432/customer
+    username: muktagurung
+    password: 12Forall#
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
