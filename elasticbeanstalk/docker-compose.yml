@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   backend:
-    image: "muktagurung/springboot-angular-fullstack:9.11.2022.4.4.23"
+    image: "muktagurung/springboot-angular-fullstack:latest"
     ports:
       - "80:8081"
     restart: "always"
