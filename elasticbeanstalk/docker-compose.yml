@@ -6,7 +6,7 @@ services:
       - "80:8081"
     restart: "always"
     environment:
-      SPRING_PROFILES_ACTIVE: dev
+      SPRING_PROFILES_ACTIVE: prod
     
     
   
