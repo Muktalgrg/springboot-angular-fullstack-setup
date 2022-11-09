@@ -16,7 +16,7 @@ env:
   # Java
   JAVA_VERSION: 17
   # DockerHub
-  DOCKER_HUB_USERNAME: muktalgrg@gmail.com
+  DOCKER_HUB_USERNAME: muktagurung
   # AWS & Elastic Bean Stalk
   AWS_REGION: ap-southeast-2
   EB_ENVIRONMENT_NAME: Springbootangularfullstack-env
